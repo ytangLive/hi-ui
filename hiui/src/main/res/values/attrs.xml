@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HiBanner">
+        <attr name="autoPlay" format="boolean" />
+        <attr name="loop" format="boolean" />
+        <attr name="intervalTime" format="integer|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="HiSliderView">
+        <attr name="menuItemWidth" format="dimension" />
+        <attr name="menuItemHeight" format="dimension" />
+        <attr name="menuItemTextSize" format="dimension" />
+        <attr name="menuItemSelectTextSize" format="dimension" />
+        <attr name="menuItemIndicator" format="reference" />
+        <attr name="menuItemTextColor" format="reference" />
+        <attr name="menuItemBackgroundColor" format="color" />
+        <attr name="menuItemSelectBackgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="HiNavigationBar">
+        <attr name="text_btn_text_size" format="dimension" />
+        <attr name="text_btn_text_color" format="color" />
+
+        <attr name="title_text_size" format="dimension" />
+        <attr name="title_text_size_with_subTitle" format="dimension" />
+        <attr name="title_text_color" format="color" />
+
+        <attr name="subTitle_text_size" format="dimension" />
+        <attr name="subTitle_text_color" format="color" />
+
+        <attr name="nav_icon_size" format="dimension" />
+        <attr name="nav_icon_color" format="color"></attr>
+        <attr name="nav_icon" format="string" />
+        <attr name="nav_title" format="string" />
+        <attr name="nav_subtitle" format="string" />
+
+        <attr name="hor_padding" format="dimension" />
+        <attr name="top_padding" format="dimension" />
+
+        <attr name="nav_line_color" format="color" />
+        <attr name="nav_line_height" format="dimension" />
+
+    </declare-styleable>
+
+    <attr name="hiNavigationStyle" format="reference" />
+
+    <style name="navigationStyle">
+        <item name="nav_icon_size">20sp</item>
+        <item name="nav_icon_color">@color/color_000</item>
+        <item name="hor_padding">8dp</item>
+
+        <item name="nav_line_color">@color/color_white</item>
+        <item name="nav_line_height">2px</item>
+
+        <!--       iconfont 字体资源-->
+        <item name="nav_icon">&#xe615;</item>
+        <item name="text_btn_text_size">16sp</item>
+        <item name="text_btn_text_color">@color/color_333</item>
+        <item name="title_text_size">18sp</item>
+        <item name="title_text_color">@color/color_000</item>
+        <item name="subTitle_text_size">@dimen/font_14</item>
+        <item name="title_text_size_with_subTitle">16sp</item>
+        <item name="subTitle_text_color">@color/color_000</item>
+    </style>
+
+    <declare-styleable name="InputItemLayout">
+        <attr name="title" format="string" />
+        <attr name="hint" format="string" />
+        <attr name="inputType" format="enum">
+            <enum name="text" value="0" />
+            <enum name="password" value="1" />
+            <enum name="number" value="2" />
+        </attr>
+        <attr name="inputTextAppearance" format="reference" />
+        <attr name="titleTextAppearance" format="reference" />
+        <attr name="topLineAppearance" format="reference" />
+        <attr name="bottomLineAppearance" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="inputTextAppearance">
+        <attr name="hintColor" format="color" />
+        <attr name="inputColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="maxInputLength" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="titleTextAppearance">
+        <attr name="titleColor" format="color" />
+        <attr name="titleSize" format="dimension" />
+        <attr name="minWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="lineAppearance">
+        <attr name="color" format="color" />
+        <attr name="height" format="dimension" />
+        <attr name="leftMargin" format="dimension" />
+        <attr name="rightMargin" format="dimension" />
+        <attr name="enable" format="boolean" />
+    </declare-styleable>
+
+</resources>
